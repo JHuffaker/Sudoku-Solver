@@ -1,5 +1,11 @@
-class HelloWorld {
+import java.util.ArrayList;
+
+class SudokuSolver {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        // Create an object of the ManageFiles class
+        ManageFiles files = new ManageFiles();
+        // Get the puzzle
+        ArrayList<ArrayList<Integer>> puzzle = files.getPuzzle();
     }
 }
