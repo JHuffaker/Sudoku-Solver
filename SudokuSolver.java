@@ -23,7 +23,6 @@ class SudokuSolver {
 
         // Retrieve the solution, and create and write to a file
         Puzzle puzzleSolver = new Puzzle();
-
         ArrayList<ArrayList<Integer>> completedPuzzle = puzzleSolver.solvePuzzle(puzzle, 0, 0);
         fileManager.createFile();
         fileManager.writeToFile(completedPuzzle);
