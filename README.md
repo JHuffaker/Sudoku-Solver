@@ -1,6 +1,6 @@
 # Overview
 
-This is a sudoku program. A sudoku puzzle is provided to the program, and it creates a new file with the sudoku file written to it. I created this to learn how to write in Java, and to demonstrate writing/creating files, the use of recursion, and the use of multidimensional arrays.
+This is a sudoku program. A sudoku puzzle is provided to the program, and it creates a new file with the sudoku file written to it. I created this to learn how to write in Java, and to demonstrate using recursion, reading/writing to files, and multidimensional arrays.
 
 [Sudoku Solver Demo](https://youtu.be/u3GkdW625QU)
 
@@ -14,4 +14,3 @@ This is a sudoku program. A sudoku puzzle is provided to the program, and it cre
 
 {Make a list of websites that you found helpful in this project}
 * [W3 Java Tutorial](https://www.w3schools.com/java/default.asp)
-* [Web Site Name](http://url.link.goes.here)
