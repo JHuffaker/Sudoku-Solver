@@ -11,6 +11,8 @@ class SudokuSolver {
 
         // Print the puzzle's solution
         System.out.println(solvePuzzle(puzzle, 0, 0));
+
+        files.createFile();
     }
 
     public static boolean isApplicable(ArrayList<ArrayList<Integer>> puzzle, int row, int col, int value) {
