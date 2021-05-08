@@ -1,18 +1,30 @@
+import java.util.Scanner;  // Import the Scanner class
 import java.util.ArrayList;
 
 class SudokuSolver {
     public static void main(String[] args) {
 
+        // Request the name of the puzzle
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Enter file name of sudoku puzzle: ");
+        String puzzleFileName = myObj.nextLine();
+
+        // Request the name the user would like to give the file
+        // of the solution
+        Scanner secondObj = new Scanner(System.in);
+        System.out.println("What would you like to name the file of the solution? ");
+        String solutionFileName = secondObj.nextLine();
+
         // Create an object of the ManageFiles class
-        ManageFiles files = new ManageFiles();
+        ManageFiles files = new ManageFiles(puzzleFileName, solutionFileName);
 
         // Retrieve puzzle
         ArrayList<ArrayList<Integer>> puzzle = files.getPuzzle();
 
-        // Print the puzzle's solution
-        System.out.println(solvePuzzle(puzzle, 0, 0));
-
+        // Retrieve the solution, and create and write to a file
+        ArrayList<ArrayList<Integer>> completedPuzzle = solvePuzzle(puzzle, 0, 0);
         files.createFile();
+        files.writeToFile(completedPuzzle);
     }
 
     public static boolean isApplicable(ArrayList<ArrayList<Integer>> puzzle, int row, int col, int value) {
