@@ -1,23 +1,17 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a sudoku program. A sudoku puzzle is provided to the program, and it creates a new file with the sudoku file written to it. I created this to learn how to write in Java, and to demonstrate writing/creating files, the use of recursion, and the use of multidimensional arrays.
 
-{Provide a description of your software}
-
-{Describe your purpose for creating this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Sudoku Solver Demo](https://youtu.be/u3GkdW625QU)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used}
+* Visual Studio Code
+* Java 16.0.1
+* Git / GitHub
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [W3 Java Tutorial](https://www.w3schools.com/java/default.asp)
 * [Web Site Name](http://url.link.goes.here)
