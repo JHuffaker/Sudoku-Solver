@@ -3,13 +3,13 @@ import java.io.FileWriter;   // Import the FileWriter class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.io.IOException;  // Import the IOException class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
-import java.util.ArrayList;
+import java.util.ArrayList; // Import the ArrayList class
 
-public class ManageFiles {
+public class FileManager {
   String puzzleFileName;
   String solutionFileName;
 
-  public ManageFiles(String puzzleFile, String solutionFile) {
+  public FileManager(String puzzleFile, String solutionFile) {
     puzzleFileName = puzzleFile;
     solutionFileName = solutionFile;
   }
