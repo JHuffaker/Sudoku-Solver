@@ -12,5 +12,4 @@ This is a sudoku program. A sudoku puzzle is provided to the program, and it cre
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [W3 Java Tutorial](https://www.w3schools.com/java/default.asp)
